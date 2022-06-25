@@ -1,0 +1,4218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/1slick.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/adap.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./CineFlix/assets/css/media_query.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/variable.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=K2D:wght@100&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  
+  <div class="preloader">
+    <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+      </path>
+    </svg>
+  </div>
+  
+   <header class="">
+      <div class="navbar">
+
+        <!--
+          - menu button for small screen
+        -->
+        <button class="navbar-menu-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+
+        <a href="./index.html" class="navbar-brand">
+          <p>Losox</p>
+        </a>
+
+        <!--
+          - navbar navigation
+        -->
+
+        <nav class="">
+          <ul class="navbar-nav">
+
+            <li> <a href="#" class="navbar-link"><a href="./film.html">Фильмы</a> </li>
+            <li> <a href="./serial.html" class="navbar-link">Сериалы</a> </li>
+            <li> <a href="#live" class="navbar-link  indicator">Трейлеры</a> </li>
+
+          </ul>
+        </nav>
+        <label for="pseudoBtn" class="btt"><ion-icon class="ttv" name="dice-outline"></ion-icon></label>
+        <input type="checkbox" id="pseudoBtn">
+        <div class="text_5">Готовый текст</div>
+        <!--
+          - search and sign-in
+        -->
+
+      
+        <div class="navbar-actions">
+
+          <form action="#" class="navbar-form">
+            <input type="text" name="search" placeholder="Я, ищу..." class="navbar-form-search">
+
+            <button class="navbar-form-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="navbar-form-close">
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+          </form>
+
+
+          <!--
+            - search button for small screen
+          -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <!-- <a href="#" class="navbar-signin">
+            <span>Sign in</span>
+            <ion-icon name="log-in-outline"></ion-icon>
+          </a> -->
+
+        </div>
+
+
+          <!--
+            - search button for small screen
+          -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <!-- <a href="#" class="navbar-signin">
+            <span>Sign in</span>
+            <ion-icon name="log-in-outline"></ion-icon>
+          </a> -->
+
+        </div>
+
+      </div>
+    </header>
+  <!-- <div class="nav">
+    
+    <li class="logo"><a href="./Index.html">Losox</a></li>
+    <li><a href="./film.html">Фильмы</a></li>
+    <li><a href="./serial.html">Сериалы</a></li>
+    <li><a href="#">Трейлеры</a></li>
+  </div>
+  <span class="line"></span>
+  <span class="line_2"></span>
+  <span class="line_3"></span> -->
+  <div class="line_4"></div>
+  <div class="line_5"></div>
+  <div class="line_7"></div>
+  <div class="line_8"></div>
+  <div class="line_9"></div>
+  <div class="line_0"></div>
+  <div class="text"id="text" >Рекомендуем фильмы</div>
+  <div class="text_2" id="text_2">Подборка для семейного просмотра</div>
+  <div class="text_6" id="text_6">Семейное </div>
+  <div class="text_3" id="text_3">Рекомендуем сериалы</div>
+  <div class="text_4">Жанры</div>
+  <!-- <div class="Footer__content">
+    <div class="line11"></div>
+    <div class="line12"></div>
+    <div class="clasic">
+      <li class="clasic_RtbN">Разделы</li>
+      <li class="clasic_RtbZ">Служба поддержки</li>
+      <p class="help">Мы рады вам помочь 24/7</p>
+      <a style="--clr:#1e9bff" class="help_CCa" href="#"><span class="help_CCw">Поддержка</span></a>
+      <div class="classic_Re">
+      <li class="clasic_RtbRP">Главная</li>
+      <li class="clasic_RtbRL">Фильмы</li>
+      <li class="clasic_RtbRM">Сериалы</li>
+      <li class="clasic_RtbRQ">Трейлеры</li>
+      <li class="clasic_RtbRW">Избранное</li>
+      <li class="clasic_RtbRW">Что посмотреть</li>
+    </div>
+    </div>
+  </div> -->
+  <div class="navbar-actions">
+
+  
+
+
+      <button class="navbar-form-close">
+        <ion-icon name="close-circle-outline"></ion-icon>
+      </button>
+    </form>
+
+
+    <!--
+      - search button for small screen
+    -->
+
+    <button class="navbar-search-btn">
+      <ion-icon name="search-outline"></ion-icon>
+    </button>
+
+    <!-- <a href="#" class="navbar-signin">
+      <span>Sign in</span>
+      <ion-icon name="log-in-outline"></ion-icon>
+    </a> -->
+
+  </div>
+
+  <section class="banner" id="banner">
+    <div class="banner-card">
+
+      <img src="https://cs13.pikabu.ru/post_img/big/2019/06/05/10/155975319719987628.png" class="banner-img" alt="">
+<main>
+      <div class="card-content">
+        <div class="card-info">
+
+          <div class="genre">
+            <ion-icon name="film"></ion-icon>
+         <!--Жанр-->   <span>Боевик/Триллер</span>
+          </div>
+
+          <div class="year">
+            <ion-icon name="calendar"></ion-icon>
+         <!--Год-->   <span>2019</span>
+          </div>
+
+          <div class="duration">
+            <ion-icon name="time"></ion-icon>
+          <!--Время--> <span>2ч 11м</span>
+          </div>
+
+          <div class="quality">4K</div>
+
+        </div>
+
+      <!-- Название   --><h2 class="card-title">Джон Уик: Глава 3 - Парабеллум</h2>
+      </div>
+
+    </div>
+  </section>
+ 
+</main>
+
+
+<div class="movies-grid">
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c3df54de-05e2-4ef8-a0d6-22f49001aab0/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>6.4</span>
+        </div>
+
+        <div class="play">
+          <a href="./basik/red notice.html"> <ion-icon name="play-circle-outline"></ion-icon></a> 
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Красное уведомление</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/комедия</span>
+        <span class="year">2021</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/51bf8584-2863-4412-9627-a3dca16c5c4d/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.4</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Человек-паук: Возвращение домой</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/Приключениеe</span>
+        <span class="year">2017</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/8ca41e88-2a7d-4775-94c8-608131508623/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>N/A</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Воскрешения Матрицы</h3>
+
+      <div class="card-info">
+        <span class="genre">Научная фантастика/Действие</span>
+        <span class="year">2021</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/87316df7-dd88-48ae-bf71-2a811d96b693/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>6.8</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Вечные</h3>
+
+      <div class="card-info">
+        <span class="genre">приключение/боевик</span>
+        <span class="year">2021</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/492a5f0a-7625-4aae-a233-76c8cb05d335/1920x" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.2</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Дюна</h3>
+
+      <div class="card-info">
+        <span class="genre">Научная фантастика/Приключения</span>
+        <span class="year">2021</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7308b7a8-2bb6-4d5d-a856-a6b4a33328d9/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.3</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">1917</h3>
+
+      <div class="card-info">
+        <span class="genre">Война/Драма</span>
+        <span class="year">2019</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/cff46452-db14-431c-8dc7-f279100bb603/1920x" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.6</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Шанг-Чи и легенда десяти колец</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/Фэнтези</span>
+        <span class="year">2021</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/b65ff78f-0a11-4a9b-bffb-f8da8f3b82b6/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.0</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Казино Рояль</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/Приключение</span>
+        <span class="year">2006</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/0fa5bf50-d5ad-446f-a599-b26d070c8b99/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>9.0</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Темный рыцарь</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/Приключение</span>
+        <span class="year">2008</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/84419b55-2d11-4fe1-b082-c26df2d82f08/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.3</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Черная пантера</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/Приключение</span>
+        <span class="year">2018</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/16b82307-bdcc-4b9b-a427-55a07771c33a/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>6.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Веном</h3>
+
+      <div class="card-info">
+        <span class="genre">Боевик/Приключение</span>
+        <span class="year">2018</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/e410c71f-baa1-4fe5-bb29-aedb4662f49b/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.9</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Властелин колец: Возвращение короля</h3>
+
+      <div class="card-info">
+        <span class="genre">Фэнтези/Приключения</span>
+        <span class="year">2003</span>
+      </div>
+    </div>
+
+  </div>
+ </div>
+<a href="film.html"><button class="load-more">Показать далее</button></a>
+<section id="iq-trending" class="s-margin">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 overflow-hidden">
+        <div class="iq-main-header d-flex align-items-center justify-content-between">
+        </div>
+        <div class="trending-contens">
+          <ul id="trending-slider-nav" class="list-inline p-0 mb-0 row align-items-center">
+            <li>
+              <a href="javascript:void(0);">
+                <div class="movie-slick position-relative">
+                  <img src="images/trending/01.jpg" class="img-fluid" alt="">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);">
+                <div class="movie-slick position-relative">
+                  <img src="images/trending/02.jpg" class="img-fluid" alt="">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);">
+                <div class="movie-slick position-relative">
+                  <img src="images/trending/03.jpg" class="img-fluid" alt="">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);">
+                <div class="movie-slick position-relative">
+                  <img src="images/trending/04.jpg" class="img-fluid" alt="">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);">
+                <div class="movie-slick position-relative">
+                  <img src="images/trending/05.jpg" class="img-fluid" alt="">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0);">
+                <div class="movie-slick position-relative">
+                  <img src="images/trending/06.jpg" class="img-fluid" alt="">
+                </div>
+              </a>
+            </li>
+
+          </ul>
+          <ul id="trending-slider" class="list-inline p-0 m-0 d-flex align-items-center">
+            <li>
+              <div class="tranding-block position-relative" style="background-image: url(images/trending/01.jpg);">
+                <div class="trending-custom-tab">
+                  <div class="trending-content">
+                    <div id="trending-data1" class="overview-tab tab-pane fade active show">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="javascript:void(0);" tabindex="0">
+                          <div class="res-logo">
+                          </div>
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">The Crown</h1>
+                        <div class="d-flex align-items-center text-white text-detail">
+                          <span class="badge badge-secondary p-3">18+</span>
+                          <span class="ml-3">3 Seasons</span>
+                          <span class="trending-year">2020</span>
+                        </div>
+                        <div class="d-flex align-items-center series mb-4">
+                          <a href="javascript:void(0);">
+                            <img src="images/trending/trending-label.png" class="img-fluid" alt="">
+                          </a>
+                          <span class="text-gold ml-3">#2 in Series Today</span>
+                        </div>
+                        <p class="trending-dec">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex facere sapiente optio dolor aperiam impedit sint molestiae delectus, qui magni 1500 thid had that.
+                        </p>
+                        <div class="p-btns">
+                          <div class="d-flex align-items-center p-0">
+                            <a href="#" class="btn btn-hover mr-2" tabindex="0">
+                              <i class="fa fa-play mr-2"></i>
+                              Play Now
+                            </a>
+                            <a href="#" class="btn btn-link" tabindex="0">
+                              <i class="fa fa-plus pr-2"></i>
+                              My List 
+                            </a>
+                          </div>
+                        </div>
+                        <div class="trending-list mt-4">
+                          <div class="text-primary title">
+                            Starring : 
+                            <span class="text-body">
+                              Clarie Foy, Olivia Colman, Imelda Staunton
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Genres :
+                            <span class="text-body">
+                              Biography
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Creators :
+                            <span class="text-body">
+                              Peter Morgan
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data2" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">the Crown</h1>
+                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                          <span class="season_date">
+                            2 Seasons 
+                          </span>
+                          <span class="trending-year">Feb 2019</span>
+                        </div>
+                        <div class="iq-custom-select d-inline-block sea-epi">
+                          <select name="Seasons" class="form-control season-select">
+                            <option value="Season1">Season 1</option>
+                            <option value="Season2">Season 2</option>
+                            <option value="Season3">Season 3</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season6">Season 6</option>
+                          </select>
+                        </div>
+
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div id="trending-data3" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">the crown</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data4" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">the Crown</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="tranding-block position-relative" style="background-image: url(images/trending/02.jpg);">
+                <div class="trending-custom-tab">
+                  <div class="trending-content">
+                    <div id="trending-data5" class="overview-tab tab-pane fade active show">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="javascript:void(0);" tabindex="0">
+                          <div class="res-logo">
+                          </div>
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Big Bang Theory</h1>
+                        <div class="d-flex align-items-center text-white text-detail">
+                          <span class="badge badge-secondary p-3">15+</span>
+                          <span class="ml-3">2 Seasons</span>
+                          <span class="trending-year">2020</span>
+                        </div>
+                        <div class="d-flex align-items-center series mb-4">
+                          <a href="javascript:void(0);">
+                            <img src="images/trending/trending-label.png" class="img-fluid" alt="">
+                          </a>
+                          <span class="text-gold ml-3">#3 in Series Today</span>
+                        </div>
+                        <p class="trending-dec">
+                          A woman who moves into an appartment across the hall from two brilliant but social awkward physicists shows then how little they know about life outside of the laboratory.
+                        </p>
+                        <div class="p-btns">
+                          <div class="d-flex align-items-center p-0">
+                            <a href="#" class="btn btn-hover mr-2" tabindex="0">
+                              <i class="fa fa-play mr-2"></i>
+                              Play Now
+                            </a>
+                            <a href="#" class="btn btn-link" tabindex="0">
+                              <i class="fa fa-plus pr-2"></i>
+                              My List 
+                            </a>
+                          </div>
+                        </div>
+                        <div class="trending-list mt-4">
+                          <div class="text-primary title">
+                            Starring : 
+                            <span class="text-body">
+                              Jhonny Galecki, Jim Parsons , Kaley Cuoco
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Genres :
+                            <span class="text-body">
+                              Comedy Romance
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Creators :
+                            <span class="text-body">
+                              Chuck Lorre, Bill Prady
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data6" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Big Bang Theory</h1>
+                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                          <span class="season_date">
+                            12 Seasons 
+                          </span>
+                          <span class="trending-year">Feb 2019</span>
+                        </div>
+                        <div class="iq-custom-select d-inline-block sea-epi">
+                          <select name="Seasons" class="form-control season-select">
+                            <option value="Season1">Season 1</option>
+                            <option value="Season2">Season 2</option>
+                            <option value="Season3">Season 3</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season5">Season 5</option>
+                            <option value="Season6">Season 6</option>
+                            <option value="Season7">Season 7</option>
+                            <option value="Season8">Season 8</option>
+                            <option value="Season9">Season 9</option>
+                            <option value="Season10">Season 10</option>
+                            <option value="Season11">Season 11</option>
+                            <option value="Season12">Season 12</option>
+                          </select>
+                        </div>
+
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div id="trending-data7" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Big Bang Theory</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data8" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Big Bang Theory</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/ce3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="tranding-block position-relative" style="background-image: url(images/trending/03.jpg);">
+                <div class="trending-custom-tab">
+                  <div class="trending-content">
+                    <div id="trending-data9" class="overview-tab tab-pane fade active show">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="javascript:void(0);" tabindex="0">
+                          <div class="res-logo">
+                          </div>
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Peaky Blinders</h1>
+                        <div class="d-flex align-items-center text-white text-detail">
+                          <span class="badge badge-secondary p-3">11+</span>
+                          <span class="ml-3">3 Seasons</span>
+                          <span class="trending-year">2020</span>
+                        </div>
+                        <div class="d-flex align-items-center series mb-4">
+                          <a href="javascript:void(0);">
+                            <img src="images/trending/trending-label.png" class="img-fluid" alt="">
+                          </a>
+                          <span class="text-gold ml-3">#5 in Series Today</span>
+                        </div>
+                        <p class="trending-dec">
+                          A gangster family epic set in 1990s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.
+                        </p>
+                        <div class="p-btns">
+                          <div class="d-flex align-items-center p-0">
+                            <a href="#" class="btn btn-hover mr-2" tabindex="0">
+                              <i class="fa fa-play mr-2"></i>
+                              Play Now
+                            </a>
+                            <a href="#" class="btn btn-link" tabindex="0">
+                              <i class="fa fa-plus pr-2"></i>
+                              My List 
+                            </a>
+                          </div>
+                        </div>
+                        <div class="trending-list mt-4">
+                          <div class="text-primary title">
+                            Starring : 
+                            <span class="text-body">
+                              Cillian Murphy, Paul Anderson, Helen McCrory
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Genres :
+                            <span class="text-body">
+                              Crime, Drama
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Creators :
+                            <span class="text-body">
+                              Steven Knight
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data10" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Peaky Blinders</h1>
+                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                          <span class="season_date">
+                            2 Seasons 
+                          </span>
+                          <span class="trending-year">Feb 2019</span>
+                        </div>
+                        <div class="iq-custom-select d-inline-block sea-epi">
+                          <select name="Seasons" class="form-control season-select">
+                            <option value="Season1">Season 1</option>
+                            <option value="Season2">Season 2</option>
+                            <option value="Season3">Season 3</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season6">Season 6</option>
+                          </select>
+                        </div>
+
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div id="trending-data11" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Peaky Blinders</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data12" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Peaky Blinders</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="tranding-block position-relative" style="background-image: url(images/trending/04.jpg);">
+                <div class="trending-custom-tab">
+                  <div class="trending-content">
+                    <div id="trending-data13" class="overview-tab tab-pane fade active show">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="javascript:void(0);" tabindex="0">
+                          <div class="res-logo">
+                          </div>
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Narcos</h1>
+                        <div class="d-flex align-items-center text-white text-detail">
+                          <span class="badge badge-secondary p-3">18+</span>
+                          <span class="ml-3">3 Seasons</span>
+                          <span class="trending-year">2015</span>
+                        </div>
+                        <div class="d-flex align-items-center series mb-4">
+                          <a href="javascript:void(0);">
+                            <img src="images/trending/trending-label.png" class="img-fluid" alt="">
+                          </a>
+                          <span class="text-gold ml-3">#21 in Series Today</span>
+                        </div>
+                        <p class="trending-dec">
+                          A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the country through the years.
+                        </p>
+                        <div class="p-btns">
+                          <div class="d-flex align-items-center p-0">
+                            <a href="#" class="btn btn-hover mr-2" tabindex="0">
+                              <i class="fa fa-play mr-2"></i>
+                              Play Now
+                            </a>
+                            <a href="#" class="btn btn-link" tabindex="0">
+                              <i class="fa fa-plus pr-2"></i>
+                              My List 
+                            </a>
+                          </div>
+                        </div>
+                        <div class="trending-list mt-4">
+                          <div class="text-primary title">
+                            Starring : 
+                            <span class="text-body">
+                              Pedro Pascal, Wagner Moura, Boyd Holbrook
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Genres :
+                            <span class="text-body">
+                              Biography, Crime, Drama
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Creators :
+                            <span class="text-body">
+                              Carlo Bernard, Chris Brancato, Doug Miro
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data14" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Narcos</h1>
+                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                          <span class="season_date">
+                            2 Seasons 
+                          </span>
+                          <span class="trending-year">Feb 2019</span>
+                        </div>
+                        <div class="iq-custom-select d-inline-block sea-epi">
+                          <select name="Seasons" class="form-control season-select">
+                            <option value="Season1">Season 1</option>
+                            <option value="Season2">Season 2</option>
+                            <option value="Season3">Season 3</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season6">Season 6</option>
+                          </select>
+                        </div>
+
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n2.png" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div id="trending-data15" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Narcos</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n2.png" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data16" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Narcos</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="tranding-block position-relative" style="background-image: url(images/trending/05.jpg);">
+                <div class="trending-custom-tab">
+                  <div class="trending-content">
+                    <div id="trending-data17" class="overview-tab tab-pane fade active show">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="javascript:void(0);" tabindex="0">
+                          <div class="res-logo">
+                          </div>
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">FRIENDS</h1>
+                        <div class="d-flex align-items-center text-white text-detail">
+                          <span class="badge badge-secondary p-3">7+</span>
+                          <span class="ml-3">10 Seasons</span>
+                          <span class="trending-year">1994 - 2004</span>
+                        </div>
+                        <div class="d-flex align-items-center series mb-4">
+                          <a href="javascript:void(0);">
+                            <img src="images/trending/trending-label.png" class="img-fluid" alt="">
+                          </a>
+                          <span class="text-gold ml-3">#6 in Series Today</span>
+                        </div>
+                        <p class="trending-dec">
+                          Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan.
+                        </p>
+                        <div class="p-btns">
+                          <div class="d-flex align-items-center p-0">
+                            <a href="#" class="btn btn-hover mr-2" tabindex="0">
+                              <i class="fa fa-play mr-2"></i>
+                              Play Now
+                            </a>
+                            <a href="#" class="btn btn-link" tabindex="0">
+                              <i class="fa fa-plus pr-2"></i>
+                              My List 
+                            </a>
+                          </div>
+                        </div>
+                        <div class="trending-list mt-4">
+                          <div class="text-primary title">
+                            Starring : 
+                            <span class="text-body">
+                              Jennifer Aniston, Courteney Cox, Lisa Kudrow
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Genres :
+                            <span class="text-body">
+                              Comedy , Romance
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Creators :
+                            <span class="text-body">
+                              David Crane, Marta Kauffman
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data18" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">FRIENDS</h1>
+                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                          <span class="season_date">
+                            10 Seasons 
+                          </span>
+                          <span class="trending-year">Feb 2019</span>
+                        </div>
+                        <div class="iq-custom-select d-inline-block sea-epi">
+                          <select name="Seasons" class="form-control season-select">
+                            <option value="Season1">Season 1</option>
+                            <option value="Season2">Season 2</option>
+                            <option value="Season3">Season 3</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season4">Season 4</option>
+                            <option value="Season6">Season 6</option>
+                          </select>
+                        </div>
+
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div id="trending-data19" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">FRIENDS</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data20" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">FRIENDS</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="tranding-block position-relative" style="background-image: url(images/trending/06.jpg);">
+                <div class="trending-custom-tab">
+                  <div class="trending-content">
+                    <div id="trending-data21" class="overview-tab tab-pane fade active show">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="javascript:void(0);" tabindex="0">
+                          <div class="res-logo">
+                          </div>
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Mirzapur</h1>
+                        <div class="d-flex align-items-center text-white text-detail">
+                          <span class="badge badge-secondary p-3">18+</span>
+                          <span class="ml-3">2 Seasons</span>
+                          <span class="trending-year">2018</span>
+                        </div>
+                        <div class="d-flex align-items-center series mb-4">
+                          <a href="javascript:void(0);">
+                            <img src="images/trending/trending-label.png" class="img-fluid" alt="">
+                          </a>
+                          <span class="text-gold ml-3">#11 in Series Today</span>
+                        </div>
+                        <p class="trending-dec">
+                          A shocking incident at a wedding procession ignites a series of events entangling the lives of two families in the lawless city of Mirzapur.
+                        </p>
+                        <div class="p-btns">
+                          <div class="d-flex align-items-center p-0">
+                            <a href="#" class="btn btn-hover mr-2" tabindex="0">
+                              <i class="fa fa-play mr-2"></i>
+                              Play Now
+                            </a>
+                            <a href="#" class="btn btn-link" tabindex="0">
+                              <i class="fa fa-plus pr-2"></i>
+                              My List 
+                            </a>
+                          </div>
+                        </div>
+                        <div class="trending-list mt-4">
+                          <div class="text-primary title">
+                            Starring : 
+                            <span class="text-body">
+                              Pankaj Tripathi, Ali Fazal, Divyendu Sharma 
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Genres :
+                            <span class="text-body">
+                              Action, Crime, Drama 
+                            </span>
+                          </div>
+                          <div class="text-primary title">
+                            Creators :
+                            <span class="text-body">
+                              Puneet Krishna, Karan Anshuman
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data22" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Mirzapur</h1>
+                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                          <span class="season_date">
+                            2 Seasons 
+                          </span>
+                          <span class="trending-year">Feb 2019</span>
+                        </div>
+                        <div class="iq-custom-select d-inline-block sea-epi">
+                          <select name="Seasons" class="form-control season-select">
+                            <option value="Season1">Season 1</option>
+                            <option value="Season2">Season 2</option>
+                          </select>
+                        </div>
+
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Episode 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div id="trending-data23" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Mirzapur</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="trending-data24" class="overlay-tab tab-pane fade">
+                      <div class="trending-info align-items-center w-100 animated fadeInUp">
+                        <a href="#" tabindex="0">
+                        </a>
+                        <h1 class="trending-text big-title text-uppercase">Mirzapur</h1>
+                        <div class="episodes-contens mt-4">
+                          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/bbt3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 1</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/fe2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 2</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/m4.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 3</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/pb3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 4</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                            <div class="e-item">
+                              <div class="block-image position-relative">
+                                <a href="#">
+                                  <img src="images/episodes/n5.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="episode-play-info">
+                                  <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                      <i class="fa fa-play"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="episodes-description text-body">
+                                <div class="d-flex align-items-center justify-content-between">
+                                  <a href="#">Trailer 5</a>
+                                  <span class="text-primary">2.25m</span>
+                                </div>
+                                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque aliquam quisquam iure tempore earum sequi.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="movies-grid">
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/61064601-965c-4ecc-9ab4-44ced13723e2/300x" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>6.4</span>
+        </div>
+
+        <div class="play">
+          <a href="./film.html"> <ion-icon name="play-circle-outline"></ion-icon></a> 
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Удивительное путешествие доктора Дулиттла</h3>
+
+      <div class="card-info">
+        <span class="genre">приключения/семейный</span>
+        <span class="year">2020</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/9ecb0974-ad01-4fde-9067-c6d147b880f4/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.0</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Собачья жизнь</h3>
+
+      <div class="card-info">
+        <span class="genre">Cемейный/
+          фэнтези</span>
+        <span class="year">
+          2017</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/926f01c6-f373-415a-b6ca-42b027757d36/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.0</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Чудо</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Драма/Семейный</span>
+        <span class="year">2017</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/6827f0fa-cb4e-4975-aa63-67ce4689c436/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.8</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Мост в Терабитию</h3>
+
+      <div class="card-info">
+        <span class="genre">Приключения/Семейный</span>
+        <span class="year">2006</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/67e29786-1f8b-4f39-8b30-68fce1cdcd22/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Маленький Николя</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Комедия/Семейный</span>
+        <span class="year">2009</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/50a6ab19-73d8-46f6-a176-6cd6962a042f/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.4</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Кристофер Робин</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/Семейный</span>
+        <span class="year">2018</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/769230b5-547e-4db7-b12d-b0f912ba5c16/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.9</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Волшебная страна</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/Семейный</span>
+        <span class="year">
+          2004</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/7d3acf9b-4012-4d46-af65-14a4a0d5b80c/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">
+        Пеликан</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/Семейный</span>
+        <span class="year">
+          2011</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/e773c2ef-9608-4085-8402-27d17165a353/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Рождественская история</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/Семейный</span>
+        <span class="year">2009</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/727f613f-c818-4adc-b4e7-6acc05a548de/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Звездная пыль</h3>
+
+      <div class="card-info">
+        <span class="genre">Приключения/Семейный</span>
+        <span class="year">2007</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/d5980a64-bb42-40e5-bb5d-45c25c6b7582/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.6</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Королевство полной луны</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/Семейный</span>
+        <span class="year">2012</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/2a61838b-a158-4b68-bea3-fcbd1bda9ba5/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.1</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Домовой</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Семейный/Фэнтези</span>
+        <span class="year">2019</span>
+      </div>
+    </div>
+
+  </div>
+ </div>
+ <a href="film.html"><button class="load-more">Показать далее</button></a>
+ <div class="movies-grid">
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/213d7f5c-e554-4b3b-a635-a233e453d90f/300x" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.7</span>
+        </div>
+
+        <div class="play">
+          <a href="./basik/Shameless.html"> <ion-icon name="play-circle-outline"></ion-icon></a> 
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Бесстыжие</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Драма/Комедия</span>
+        <span class="year">2011</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/f1c8eee6-4d0d-4808-9cec-3d1e21e4b5a0/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.2</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Бумажный дом</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Боевик/Триллер</span>
+        <span class="year">2017</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/11903c9a-d589-4f39-b9cb-a933d21f4b09/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>N/A</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Последнее королевство</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/История</span>
+        <span class="year">2015</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/ed001eb8-ab32-4525-a1f4-053c7784401e/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.6</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Академия «Амбрелла»</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Фантастика/Фэнтези</span>
+        <span class="year">2019</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/cb00f0e1-0dad-4916-8104-9966540aa536/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.2</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Уэйн</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Боевик/Комедия</span>
+        <span class="year">2019</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/d562f8bf-33a6-4dd7-9d69-331b675418cf/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Эйфория</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма</span>
+        <span class="year">2019</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/12a6ee26-9b72-446d-be20-312fc1c42974/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.6</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">
+        Люцифер</h3>
+
+      <div class="card-info">
+        <span class="genre">Драма/Криминал</span>
+        <span class="year">2016</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/53e53a08-3f1d-4169-a987-e00c25cd1622/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.2</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">
+        Викинги</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          История/Драма</span>
+        <span class="year">2013</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.9</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Во все тяжкие</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Криминал/Драма</span>
+        <span class="year">2008</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/3f6b0f5e-6b13-4338-8298-cd4528596d3a/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>7.8</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Мир! Дружба! Жвачка!</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Драма/Комедия</span>
+        <span class="year">2020</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/d591df2c-becd-4e3f-ac2d-f26ac6d8161e/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.6</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">
+        Йеллоустоун</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Драма/Вестерн</span>
+        <span class="year">2018</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="movie-card">
+
+    <div class="card-head">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/ec7821b5-e731-4ee7-ba6b-f7608a3460dd/300x450" alt="" class="card-img">
+
+      <div class="card-overlay">
+
+        <div class="bookmark">
+          <ion-icon name="bookmark-outline"></ion-icon>
+        </div>
+
+        <div class="rating">
+          <ion-icon name="star-outline"></ion-icon>
+          <span>8.7</span>
+        </div>
+
+        <div class="play">
+          <ion-icon name="play-circle-outline"></ion-icon>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card-body">
+      <h3 class="card-title">Настоящий детектив</h3>
+
+      <div class="card-info">
+        <span class="genre">
+          Детектив/Криминал</span>
+        <span class="year">2014</span>
+      </div>
+    </div>
+
+  </div>
+ </div>
+ <a href="film.html"><button class="load-more">Показать далее</button></a>
+ <section class="category" id="category">
+  <div class="category-grid">
+
+    <div class="category-card">
+      <img src="./assets/images/action.jpg" alt="" class="card-img">
+      <div class="name">Action</div>
+      <div class="total">100</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/comedy.jpg" alt="" class="card-img">
+      <div class="name">Comedy</div>
+      <div class="total">50</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/thriller.webp" alt="" class="card-img">
+      <div class="name">Thriller</div>
+      <div class="total">20</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/horror.jpg" alt="" class="card-img">
+      <div class="name">Horror</div>
+      <div class="total">80</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/adventure.jpg" alt="" class="card-img">
+      <div class="name">Adventure</div>
+      <div class="total">100</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/animated.jpg" alt="" class="card-img">
+      <div class="name">Animated</div>
+      <div class="total">50</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/crime.jpg" alt="" class="card-img">
+      <div class="name">Crime</div>
+      <div class="total">20</div>
+    </div>
+
+    <div class="category-card">
+      <img src="./assets/images/sci-fi.jpg" alt="" class="card-img">
+      <div class="name">SCI-FI</div>
+      <div class="total">80</div>
+    </div>
+
+  </div>
+
+</section>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/select2.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/slick-animation.min.js"></script>
+<script src="../CineFlix/assets/js/main.js"></script>
+<script src="../CineFlix/assets/js/ma2in.js"></script>
+<script src="main.js"></script>
+<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+</script>
+</body>
+</html>
